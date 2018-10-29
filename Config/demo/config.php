@@ -3,12 +3,12 @@ $global_config_data = [
 
     'demo' => [
         'businessworker' => [
-            'name' => 'LtstudyLockBusinessWorker',
+            'name' => 'HskyLockBusinessWorker',
             'count' => '8',
             'registerAddress' => '127.0.0.1:9502'
         ],
         'gateway' => [
-            'name' => 'LtstudyLockGateway',
+            'name' => 'HskyLockGateway',
             'count' => '4',
             'lanIp' => '127.0.0.1',
             'startPort' => '2000',
@@ -18,7 +18,7 @@ $global_config_data = [
             'pingNotResponseLimit' => 4
         ],
         'register' => [
-            'name' => 'LtstudyLockRegister',
+            'name' => 'HskyLockRegister',
             'protocol' => 'text://0.0.0.0:9502'
         ],
         'redis' => [
