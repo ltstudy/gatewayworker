@@ -10,7 +10,7 @@ $global_config_data = [
             'name' => 'LtstudyLockGateway',
             'count' => '4',
             'lanIp' => '127.0.0.1',
-            'startPort' => '14101',
+            'startPort' => '2000',
             'protocol' => 'tcp://0.0.0.0:4000',
             'registerAddress' => '127.0.0.1:9502',
             'pingInterval' => 15,
@@ -53,7 +53,7 @@ $global_config_data = [
             'database' => '1'
         ]
     ],
-    
+
 //    'cabinet' => [
 //        'businessworker' => [
 //            'name' => 'KuainuoyouLockBusinessWorker',
