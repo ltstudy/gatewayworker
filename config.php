@@ -4,7 +4,7 @@ $global_config_data = [
         'businessworker' => [
             'name' => 'LtstudyLockBusinessWorker',
             'count' => '8',
-            'registerAddress' => '127.0.0.1:12211'
+            'registerAddress' => '127.0.0.1:9502'
         ],
         'gateway' => [
             'name' => 'LtstudyLockGateway',
@@ -12,13 +12,13 @@ $global_config_data = [
             'lanIp' => '127.0.0.1',
             'startPort' => '14101',
             'protocol' => 'frame://0.0.0.0:4000',
-            'registerAddress' => '127.0.0.1:12211',
+            'registerAddress' => '127.0.0.1:9502',
             'pingInterval' => 15,
             'pingNotResponseLimit' => 4
         ],
         'register' => [
             'name' => 'LtstudyLockRegister',
-            'protocol' => 'text://0.0.0.0:12211'
+            'protocol' => 'text://0.0.0.0:9502'
         ],
         'redis' => [
             'host' => '127.0.0.1',
