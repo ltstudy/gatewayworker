@@ -18,7 +18,7 @@ $global_config_data = [
         ],
         'register' => [
             'name' => 'LtstudyLockRegister',
-            'protocol' => 'text://0.0.0.0:9502'
+            'protocol' => 'text://127.0.0.1:9502'
         ],
         'redis' => [
             'host' => '127.0.0.1',
@@ -45,7 +45,7 @@ $global_config_data = [
         ],
         'register' => [
             'name' => 'HskyLockRegister',
-            'protocol' => 'text://0.0.0.0:9504'
+            'protocol' => 'text://127.0.0.1:9504'
         ],
         'redis' => [
             'host' => '127.0.0.1',
