@@ -31,21 +31,21 @@ $global_config_data = [
         'businessworker' => [
             'name' => 'HskyLockBusinessWorker',
             'count' => '8',
-            'registerAddress' => '127.0.0.1:9503'
+            'registerAddress' => '127.0.0.1:9504'
         ],
         'gateway' => [
             'name' => 'HskyLockGateway',
             'count' => '4',
             'lanIp' => '127.0.0.1',
             'startPort' => '2001',
-            'protocol' => 'tcp://0.0.0.0:9503',
-            'registerAddress' => '127.0.0.1:9503',
+            'protocol' => 'tcp://0.0.0.0:6000',
+            'registerAddress' => '127.0.0.1:9504',
             'pingInterval' => 15,
             'pingNotResponseLimit' => 4
         ],
         'register' => [
             'name' => 'HskyLockRegister',
-            'protocol' => 'text://0.0.0.0:9503'
+            'protocol' => 'text://0.0.0.0:9504'
         ],
         'redis' => [
             'host' => '127.0.0.1',
