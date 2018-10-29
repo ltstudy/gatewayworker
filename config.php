@@ -1,6 +1,5 @@
 <?php
 $global_config_data = [
-
     'demo' => [
         'businessworker' => [
             'name' => 'LtstudyLockBusinessWorker',
