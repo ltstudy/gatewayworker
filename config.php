@@ -47,11 +47,11 @@ $global_config_data = [
             'name' => 'HskyLockRegister',
             'protocol' => 'text://127.0.0.1:9504'
         ],
-        'redis' => [
-            'host' => '127.0.0.1',
-            'port' => '6379',
-            'database' => '1'
-        ]
+//        'redis' => [
+//            'host' => '127.0.0.1',
+//            'port' => '6379',
+//            'database' => '1'
+//        ]
     ],
 
 //    'cabinet' => [
